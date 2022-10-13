@@ -12,15 +12,18 @@
 </script>
 <center>
 <form>
-     Name<input  type="text" id="name" placeholder="name"><br>
+     Name<input  type="text" id="name" placeholder="Name"><br>
      Phone number<input type="text" id="phone" placeholder="Phone Number"><br>
-     Address<input type="text" id="address" placeholder="addess"><br>
+     Address<input type="text" id="address" placeholder="Addess"><br>
      Have you ever lived with a dog before?<input type="checkbox" id="checkbox" >  <br> 
-     Please select preffered breeds <br>labradog <input  type="checkbox" name="labradog" id="multiselect"><br>
-	 dulldog  <input type="checkbox" id="multiselect" name="dulldog"><br>
-	 sheffered  <input type="checkbox" id="multiselect" name="sheffered"><br>
+     Please select preffered breeds 
 
-        Submit<input type="submit" id="submit" name="submit"><br>
+     <select  name="breeds"  id="multiSelect" multiple>
+        <option value="1" >labra </option>
+        <option  value="2">labra1 </option>
+        <option  value="3">labra2</option>
+     </select>
+        Submit<input type="submit" id="submit" name="Submit"><br>
 	</form>
 	</center>
 </body>
